@@ -2,3 +2,5 @@ include ../CubeOrangePlus-bdshot/hwdef.dat
 
 undef AP_MAVLINK_SIGNING_ENABLED
 define AP_MAVLINK_SIGNING_ENABLED 0
+
+define AP_OPENDRONEID_ENABLED 1
