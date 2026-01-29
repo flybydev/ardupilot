@@ -1,0 +1,10 @@
+include ../CubeOrangePlus-bdshot/hwdef.dat
+
+undef AP_MAVLINK_SIGNING_ENABLED
+define AP_MAVLINK_SIGNING_ENABLED 0
+
+define AP_OPENDRONEID_ENABLED 1
+
+# Removed for MCU space constraints
+undef HAL_GENERATOR_ENABLED
+define HAL_GENERATOR_ENABLED 0
